@@ -3,11 +3,11 @@
 
 ## Atualize os seus dados
 
-- Nome:
-- Matrícula:
-- Curso:
-- Semestre/Ano correntes:
-- Link para o seu GitHub:
+- Nome: Maria Carolina Galarani Fagunde
+- Matrícula: 21.2.8038
+- Curso: Sistemas de Informação
+- Semestre/Ano correntes: 2023/2
+- Link para o seu GitHub: [Carol-Galarani](https://github.com/Carol-Galarani)
 
 ## [Projeto final:](./Projeto/README.md)
 
