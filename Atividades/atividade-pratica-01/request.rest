@@ -1,0 +1,189 @@
+//DONATION
+POST http://localhost:5000/api/donation
+Content-Type: application/json
+
+{
+    "id": 3,
+    "person_id": "65b7964e214ed2071abdec31",
+    "local_id": "65b6d9c184c41a9e2c5ac3c2"
+}
+
+###
+GET http://localhost:5000/api/donation
+
+###
+GET http://localhost:5000/api/donation/65b3bb8dbb0bfb0244806242
+//65b6c11c4ffc5005d4bc966a //65b6c1204ffc5005d4bc966c// 
+//65b6c11b4ffc5005d4bc9666 //65b6c11c4ffc5005d4bc9668
+###
+DELETE  http://localhost:5000/api/donation/65bd6a04fe08b56bcd8d2b93
+
+###
+PUT  http://localhost:5000/api/donation/65b5051fa2007b97bdec014a
+Content-Type: application/json
+
+{
+    "id": 221,
+    "person_id": "65b7964e214ed2071abdec31",
+    "local_id": "65b6da3284c41a9e2c5ac3cb"
+}
+
+//BLOOD TYPE
+###
+POST http://localhost:5000/api/bloodtype
+Content-Type: application/json
+
+{
+    "id": 6,
+    "type": "AB",
+    "factor": "positivo"
+}
+
+###
+GET http://localhost:5000/api/bloodtype
+
+###
+GET http://localhost:5000/api/bloodtype/65bd6af4fe08b56bcd8d2ba8
+
+###
+DELETE  http://localhost:5000/api/bloodtype/65b58dda1a77b9b2a807b5cc
+
+###
+PUT http://localhost:5000/api/bloodtype/65b58dda1a77b9b2a807b5cc
+Content-Type: application/json
+
+{
+    "id": 3,
+    "type": "0",
+    "factor": "positivo"
+}
+
+//STATE
+###
+POST  http://localhost:5000/api/state
+Content-Type: application/json
+
+{
+    "id": 6,
+    "name": "Santa Catarina",
+    "abbreviation": "SC"
+}
+
+###
+GET http://localhost:5000/api/state
+
+###
+GET http://localhost:5000/api/state/65bd6b7e714981ac40cf22f9
+
+###
+DELETE  http://localhost:5000/api/state/65bd6b7e714981ac40cf22f9
+
+###
+PUT http://localhost:5000/api/state/65b6cfd4b58c54f3cddaf906
+Content-Type: application/json
+
+{
+    "id": 2,
+    "name": "Sao Paulo",
+    "abbreviation": "SP"
+}
+
+//LOCATIONS
+###
+POST  http://localhost:5000/api/location
+Content-Type: application/json
+
+{
+    "id": 3,
+    "name": "Good blood",
+    "street": "34 California",
+    "complement": "Next to Dior",
+    "city_id": "65b7a1706025fa888e896c2b"
+}
+
+###
+GET http://localhost:5000/api/location
+
+###
+GET http://localhost:5000/api/location/65b6da0a84c41a9e2c5ac3c4
+
+###
+DELETE  http://localhost:5000/api/location/65bd6c00714981ac40cf2306
+
+###
+PUT http://localhost:5000/api/location/65b6d9c184c41a9e2c5ac3c2
+Content-Type: application/json
+
+{
+    "id": 2,
+    "name": "Doe",
+    "street": "123 Main",
+    "complement": "Next to cotsco",
+    "city_id": "65b7a1706025fa888e896c2b"
+}
+
+
+//PERSON
+###
+POST http://localhost:5000/api/person
+Content-Type: application/json
+
+{
+    "id": 2,
+    "name": "Maria Antonia" ,
+    "number": 998543640,
+    "rg": "MG-564233",
+    "city_id": "65b7a1706025fa888e896c2b",
+    "type_id": "65bcf1bec969b432d6454f18"
+}
+
+###
+GET http://localhost:5000/api/person
+
+###
+GET http://localhost:5000/api/person/65bd6d77714981ac40cf2322
+###
+DELETE  http://localhost:5000/api/person/65bd6d77714981ac40cf2322
+
+###
+PUT http://localhost:5000/api/person/65b7964e214ed2071abdec31
+Content-Type: application/json
+
+{
+    "id": 3,
+    "name": "Maria Carolina",
+    "number": 998309840,
+    "rg": "MG-328432",
+    "city_id": "65b7a1706025fa888e896c2b",
+    "type_id": "65bcf1bec969b432d6454f18"
+}
+
+//CITY
+###
+POST  http://localhost:5000/api/city
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "Belo Horizonte",
+    "state_id": "65b6c87a1ed460fdd22b8cfd"
+}
+
+###
+GET http://localhost:5000/api/city
+
+###
+GET http://localhost:5000/api/city/65bd718c957ac74740ec9959
+
+###
+DELETE  http://localhost:5000/api/city/65bd718c957ac74740ec9959
+
+###
+PUT http://localhost:5000/api/city/65b7964e214ed2071abdec31
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "Belo Horizonte",
+    "state_id": "65b6c87a1ed460fdd22b8cfd"
+}
