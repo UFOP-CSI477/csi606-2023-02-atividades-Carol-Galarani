@@ -4,11 +4,10 @@
 
 --------------
 
-<!-- Este documento tem como objetivo apresentar o projeto desenvolvido, considerando o que foi definido na proposta e o produto final. -->
-
 ### Resumo
 
-  (Apresentar um breve resumo sobre o seu trabalho, indicando o contexto e as principais funcionalidades.)
+  Projetada para simplificar o gerenciamento de suas tarefas e compromissos diários.
+  O sistema opera com duas entidades principais: "user" e "note". "User" armazena informações essenciais do usuário, incluindo nome, email, senha, data de última atualização e data de criação e a entidade "note" é responsável pelo armazenamento de informações relacionadas aos compromissos e tarefas agendadas. Cada nota é caracterizada por um título, uma descrição detalhada, data de última atualização e data de criação. 
 
 ### 1. Funcionalidades implementadas
 <!-- Descrever as funcionalidades que eram previstas e foram implementas. -->

@@ -1,0 +1,40 @@
+.forms{
+    background-color: azure;
+    width: 50vh;
+    height: 70vh;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)}
+.formsContainer{
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formsButton{
+    background-color: rgb(203, 20, 20);
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    width: 30vh;
+    height: 5vh;
+    text-align: center;
+    border-radius: 10px;
+}
+.formsButton:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.formLabel{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    gap: 5px;
+    width: 50vh;
+}
